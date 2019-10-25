@@ -1,0 +1,16 @@
+{
+  "name": "sample_youtube_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test_chrome": "testcafe chrome test.js --skip-js-errors",
+    "test_firefox": "testcafe firefox test.js --skip-js-errors",
+    "test_safari": "testcafe safari test.js --skip-js-errors"
+  },
+  "author": "William Estrada",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.6.0"
+  }
+}
